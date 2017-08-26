@@ -1,6 +1,6 @@
-// Hello World for Windows.
+// Hello World program for Windows.
 
-#include "stdafx.h" // comment out if not running on the Windows OS.
+#include "stdafx.h" // Comment out if not running Windows OS
 #include <iostream>
 #include <string>
 
@@ -8,7 +8,7 @@ void pause_function();
 
 int main(int argc, char** argv) {
 
-	std::string hw_ = "Hello World~!";
+	std::string hw_ = "Hello Big Beautiful World~!";
 
 	std::cout << hw_ << std::endl;
 
@@ -18,6 +18,6 @@ int main(int argc, char** argv) {
 
 void pause_function() {
 	char q_in;
-	std::cout << std::endl << "press 'q' and then Enter to continue: ";
+	std::cout << std::endl << "Press 'q' and then Enter to continue: ";
 	std::cin >> q_in;
 }
