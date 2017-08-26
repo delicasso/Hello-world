@@ -1,6 +1,6 @@
 // Hello World program for Windows.
 
-#include "stdafx.h" // Comment out if not using Windows OS
+#include "stdafx.h" // Comment out if not running Windows OS
 #include <iostream>
 #include <string>
 
